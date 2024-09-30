@@ -1,8 +1,4 @@
-/***
- * LED.h: A class for Led objects
- * By: Nguyen Anh Tuan (Apr., 2022)
- * 
- ***/
+
 #pragma once
 #include <Arduino.h>
 
