@@ -1,1 +1,1 @@
-# IoT_project
+Các bài tập trên dựa trên thư viện và ví dụ được học trên lớp để cải tiến và thêm 1 số chức năng
