@@ -1,11 +1,33 @@
+## LDR SENSOR WITH ESP32
+![Mạch breadboard](images/circuit.png)
 
+Các chức năng đã làm trong dự án này:
+- Đọc giá trị độ sáng (tương đối) từ quang trở qua chân ADC(A0) của ESP32
+- In giá trị này ra cổng UART dạng số nguyên (0 - 4095)
+- Sử dụng công cụ vẽ đồ thị để vẽ đồ thị đo cường độ sáng thu được theo thời gian thực
 
+## Author
+- Tu Van Hoai Nam
+
+## Material
+- 1 x ESP32
+- 1 x LDR
+- 1 x resistor 1K
+- 1 x breadboard
+- PlatformIO/VS code
+- Teleplot/VS code
+- Fritzing
+
+## Connection
+![Fritzing schematic](images/fritzing.png)
+
+|  ESP32 Pin  |   Components   |  
+|-------------|----------------|
+| 3.3V        | Breadboard (+) |
+| GND         | Breadboard (-) |
+| A0          | LDR PIN        |
+
+## Result
 ![Kết nối LDR với Arduino](images/teleplot.png)
-### 4. Lưu ý
-- **Đường dẫn ảnh**: Đường dẫn đến ảnh phải đúng và liên quan đến vị trí của tệp `README.md`. Ví dụ, nếu ảnh nằm trong thư mục `images/`, bạn cần chỉ rõ đường dẫn tương đối từ tệp `README.md`.
-- **Mô tả hình ảnh**: Nội dung trong ngoặc vuông (`[]`) là mô tả ảnh, giúp cải thiện khả năng truy cập cho người dùng và công cụ tìm kiếm.
 
-## 5. Lưu và kiểm tra
-- Sau khi cập nhật tệp `README.md`, kiểm tra kết quả bằng cách mở file trong trình xem Markdown hoặc đẩy dự án lên GitHub. Trên GitHub, bạn sẽ thấy hình ảnh hiển thị trực tiếp trong phần mô tả.
-
-Vậy là bạn đã thành công thêm hình ảnh vào `README.md`!
+Sử dụng công cụ vẽ đồ thị Teleplot để vẽ đồ thị đo cường độ sáng từ cảm biến LDR theo thời gian thực 
