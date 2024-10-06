@@ -1,5 +1,7 @@
+
+
 ![Kết nối LDR với Arduino](images/teleplot.png)
-## 4. Lưu ý
+### 4. Lưu ý
 - **Đường dẫn ảnh**: Đường dẫn đến ảnh phải đúng và liên quan đến vị trí của tệp `README.md`. Ví dụ, nếu ảnh nằm trong thư mục `images/`, bạn cần chỉ rõ đường dẫn tương đối từ tệp `README.md`.
 - **Mô tả hình ảnh**: Nội dung trong ngoặc vuông (`[]`) là mô tả ảnh, giúp cải thiện khả năng truy cập cho người dùng và công cụ tìm kiếm.
 
